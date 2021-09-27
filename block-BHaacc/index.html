@@ -1,0 +1,228 @@
+<!-- - Create a layout according to the design shown below.
+
+![Backgrounds and gradient Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/adding-media/ex-1.png)
+
+- Video link: https://www.youtube.com/watch?v=AqcjdkPMPJA#action=share
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment-1 of Adding Media</title>
+	<link rel="stylesheet" href="./stylesheet/style.css">
+	<script src="https://kit.fontawesome.com/19cfdc048e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container flex">
+			<h1>Hydro</h1>
+			<nav class="nav-home">
+				<ul class="flex">
+					<li>Home</li>
+					<li>About</li>
+					<li>Blog</li>
+					<li>OurWork</li>
+					<li>Contacts</li>
+				</ul>
+			</nav>
+			<nav class="nav-fb">
+				<a href=""><i class="fab fa-facebook-square"></i></a>
+				<a href=""><i class="fab fa-twitter"></i></a>
+				<a href=""><i class="fab fa-instagram"></i></a>
+			</nav>
+			<div class="sign flex">
+				<a href="">Sign in/Join</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="bg-img">
+			<div class="container">
+				<section class="absolute">
+					<h2>We make beautiful websites for all people.</h2>
+					<h3>start a project</h3>
+					<p class="call">CALL US(+66)010-020-0340<br>For any inquery</p>
+					<iframe class="video" width="500" height="290" src="https://www.youtube.com/embed/AqcjdkPMPJA"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</section>
+			</div>
+		</div>
+		<section>
+			<div class="container">
+				<div class="flex">
+					<div class="part-1">
+						<h4>Let us introduce</h4>
+						<div class="dot">...</div>
+						<p class="para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum reprehenderit
+							ut praesentium
+							molestias corrupti qui, delectus?</p>
+						<p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam excepturi
+							fuga porro.</p>
+					</div>
+					<div>
+						<p class="web">Web Design</p>
+						<p class="num">85%</p>
+						<div class="line"></div>
+						<p class="photo">Photography</p>
+						<p class="num">90%</p>
+						<div class="line-2"></div>
+						<p class="photo">Content Marketing</p>
+						<p class="num">75%</p>
+						<div class="line-3"></div>
+						<p class="photo">CMS Admin</p>
+						<p class="num">70%</p>
+						<div class="line-4"></div>
+					</div>
+					<div>
+						<img class="boy" src="./assets/about-image.jpg" alt="boy">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bg-clr">
+			<div class="container">
+				<h5>Our Blog</h5>
+				<div class="dot-2">...</div>
+				<article class="flex">
+					<img class="image1" src="./assets/blog-image1.jpg" alt="">
+					<div class="bg-white">
+						<div class="date">
+							<a href="#"><i class="far fa-clock"></i>
+								<span>December 22,2017</span>
+							</a>
+							<h6>how to find out beautiful workspace.</h6>
+							<p class="para-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+							<div class="read-article">Read article</div>
+						</div>
+					</div>
+					<img class="image2" src="./assets/blog-image2.jpg" alt="">
+					<div class="bg-white">
+						<div class="date">
+							<a href="#"><i class="far fa-clock"></i>
+								<span>December 18,2017</span>
+							</a>
+							<h6>how to find out beautiful workspace.</h6>
+							<p class="para-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+							<div class="read-article">Read article</div>
+						</div>
+					</div>
+				</article>
+				<article class="flex article">
+					<img class="image1" src="./assets/blog-image3.jpg" alt="">
+					<div class="bg-white">
+						<div class="date">
+							<a href="#"><i class="far fa-clock"></i>
+								<span>December 14,2017</span>
+							</a>
+							<h6>how to find out beautiful workspace.</h6>
+							<p class="para-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+							<div class="read-article">Read article</div>
+						</div>
+					</div>
+					<img class="image2" src="./assets/blog-image4.jpg" alt="">
+					<div class="bg-white">
+						<div class="date">
+							<a href="#"><i class="far fa-clock"></i>
+								<span>December 10,2017</span>
+							</a>
+							<h6>how to find out beautiful workspace.</h6>
+							<p class="para-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+							<div class="read-article">Read article</div>
+						</div>
+					</div>
+
+				</article>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<h5>Our Work</h5>
+				<div class="dot-2">...</div>
+				<div class="flex work-img">
+					<img src="./assets/work-image1.jpg" alt="">
+					<img src="./assets/work-image2.jpg" alt="">
+					<img src="./assets/work-image3.jpg" alt="">
+					<img src="./assets/work-image4.jpg" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="bg-img2">
+			<h5>Contact Us</h5>
+				<div class="dot-2">...</div>
+			<div class="container flex ">
+				<div class="all-box">
+					<div class="flex">
+						<div class="box-1">Full Name</div>
+						<div class="box-1">Your Email</div>
+					</div>
+					<div class="flex box-2">
+						<div class="box-1">Your Phone</div>
+						<div class="box-1">Budget Level</div>
+					</div>
+					<div class="big-box">Your requirements</div>
+					<div class="send flex">
+						<a href="#">Send Message</a>
+					</div>
+				</div>
+				<div class="map">
+					<iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.8881481826243!2d76.35319095040936!3d32.20724448105523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1632773207379!5m2!1sen!2sin" width="" height="450" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</section>
+		
+		<footer class="footer">
+			<div class="container flex">
+				<div class="col-1">
+					<h6>Hydro Company</h6>
+					<p class="last-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, neque! Minus, iste
+						doloremque culpa dolorem quaerat qui?</p>
+					</div>
+					<div class="col-2">
+						<h6>Company</h6>
+						<ol>
+							<li>About Us</li>
+							<li>Join our team</li>
+							<li>Read Blog</li>
+							<li>Press</li>
+						</ol>
+					</div>
+					<div class="col-2">
+						<h6>Services</h6>
+						<ol>
+							<li>Pricing</li>
+							<li>Documentation</li>
+							<li>Support</li>
+						</ol>
+					</div>
+					<div class="col-2">
+						<h6>Find us</h6>
+						<ol>
+							<li>123 Grand Rama IX,</li>
+							<li>Join our team krung thep</li>
+						</ol>
+					</div>
+				</div>
+				<div class="hr"></div>
+				<div class="container flex">
+					<small>Copyright &copy;2017 Your Company</small>
+					<p class="call-us">Call us (+66)010-020-0340</p>
+					
+					<nav class="nav-fb">
+						<a href=""><i class="fab fa-facebook-square"></i></a>
+						<a href=""><i class="fab fa-twitter"></i></a>
+						<a href=""><i class="fab fa-instagram"></i></a>
+					</nav>
+				</div>
+		</footer>
+	</main>
+</body>
+
+</html>
